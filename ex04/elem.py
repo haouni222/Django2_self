@@ -28,6 +28,13 @@ class Elem:
         Obviously.
         """
         [...]
+        self.tag = tag
+        self.attr = attr
+        self.content = []
+        if content is not None:
+            self.add_content(content)
+        self.tag_type = tag_type
+        
 
     def __str__(self):
         """
@@ -38,8 +45,10 @@ class Elem:
         """
         if self.tag_type == 'double':
             [...]
+            result = '< ' + self.tag + self.__make_attr() + '>'
         elif self.tag_type == 'simple':
             [...]
+            result = '<' + self.tag + self.__make_attr() + ' />'
         return result
 
     def __make_attr(self):
@@ -83,5 +92,8 @@ class Elem:
                                                 for elem in content])))
 
 
+def main():
+    print("a")
+
 if __name__ == '__main__':
-    [...]
+    main()

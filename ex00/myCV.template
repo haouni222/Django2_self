@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{titre}</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse; 
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>{titre}</h1>
+    <p><strong>Prénom :</strong> {prenom}</p>
+    <p><strong>Nom :</strong> {nom}</p>
+    <p><strong>Age :</strong> {age}</p>
+    <p><strong>Profession :</strong> {profession} </p>
+
+</body>
+</html>

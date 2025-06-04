@@ -1,0 +1,5 @@
+titre = "CV - Manuel Valls"
+prenom = "Manuel"
+nom = "Valls"
+age = "40"
+profession = "politique"
