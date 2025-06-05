@@ -3,7 +3,6 @@ import os
 import re
 
 def main():
-    print(len(sys.argv))
     if len(sys.argv) != 2:
         sys.exit( "Error in the args")
 
